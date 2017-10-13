@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: #fffff1;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="checkers.SetUpController">
+   <children>
+      <Label layoutX="32.0" layoutY="56.0" text="Tile Color:">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="159.0" text="Team 1 Color:">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="266.0" text="Team 2 Color:">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="tileGray" layoutX="32.0" layoutY="79.0" mnemonicParsing="false" style="-fx-mark-highlight-color: #A9A9A9; -fx-mark-color: #A9A9A9;" text="Dark Gray">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="tileBlack" layoutX="135.0" layoutY="79.0" mnemonicParsing="false" style="-fx-mark-highlight-color: black; -fx-mark-color: black;" text="Black">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="tileOrange" layoutX="225.0" layoutY="79.0" mnemonicParsing="false" style="-fx-mark-highlight-color: #ff8c00; -fx-mark-color: #ff8c00;" text="Dark Orange">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team1Red" layoutX="32.0" layoutY="182.0" mnemonicParsing="false" style="-fx-mark-highlight-color: red; -fx-mark-color: red;" text="Red">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team1Green" layoutX="114.0" layoutY="182.0" mnemonicParsing="false" style="-fx-mark-highlight-color: green; -fx-mark-color: green;" text="Green">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team1Blue" layoutX="204.0" layoutY="182.0" mnemonicParsing="false" style="-fx-mark-highlight-color: #87ceeb; -fx-mark-color: #87ceeb;" text="Blue">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team2Red" layoutX="32.0" layoutY="289.0" mnemonicParsing="false" style="-fx-mark-highlight-color: red; -fx-mark-color: red;" text="Red">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team2Green" layoutX="114.0" layoutY="289.0" mnemonicParsing="false" style="-fx-mark-highlight-color: green; -fx-mark-color: green;" text="Green">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team2Blue" layoutX="203.0" layoutY="289.0" mnemonicParsing="false" style="-fx-mark-highlight-color: #87ceeb; -fx-mark-color: #87ceeb;" text="Blue">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="tileTan" layoutX="349.0" layoutY="79.0" mnemonicParsing="false" style="-fx-mark-highlight-color: #d2b48c; -fx-mark-color: #d2b48c;" text="Tan">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team1Black" layoutX="283.0" layoutY="182.0" mnemonicParsing="false" style="-fx-mark-highlight-color: black; -fx-mark-color: black;" text="Black">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team2Black" layoutX="283.0" layoutY="289.0" mnemonicParsing="false" style="-fx-mark-highlight-color: black; -fx-mark-color: black;" text="Black">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="50.0" layoutY="352.0" mnemonicParsing="false" onAction="#startGame" prefHeight="25.0" prefWidth="350.0" text="START">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
